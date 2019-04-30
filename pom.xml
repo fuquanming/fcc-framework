@@ -58,6 +58,14 @@
           <artifactId>fastjson</artifactId>
           <version>${fastjson.version}</version>
       </dependency>
+
+
+      <!--#托管的类扫描包路径#-->
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.16.10</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>fcc-framework</finalName>

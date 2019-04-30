@@ -7,7 +7,7 @@
     
     <servlet>
         <servlet-name>DispatcherServlet</servlet-name>
-        <servlet-class>com.fcc.framework.servlet.DispatcherServlet</servlet-class>
+        <servlet-class>com.fcc.framework.servlet.v2.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>application.properties</param-value>
